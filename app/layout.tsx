@@ -10,6 +10,9 @@ export const metadata = {
     { media: '(prefers-color-scheme: light)', color: 'white' },
     { media: '(prefers-color-scheme: dark)', color: 'black' },
   ],
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 interface RootLayoutProps {
