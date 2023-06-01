@@ -10,7 +10,9 @@ export default function TextPage() {
 
   const currentTheme = theme === 'dark' ? THEME.DARK : THEME.LIGHT;
 
-  useEffect(() => setHasMounted(true), []);
+  useEffect(() => {
+    setHasMounted(true);
+  }, []);
 
   if (!hasMounted) {
     return null;
